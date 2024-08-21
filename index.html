@@ -1,12 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="htmx.min.js"></script>
-    <title>home page</title>
+
+    <title>My Home</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+
 </head>
+
+
 <body>
-    
+    <!-- 定义黑客帝国背景CANVAS -->
+    <canvas id="matrix"></canvas>
+
+    <header>
+        <!-- 网易云播放器    音乐列表替换id的值 -->
+        <!-- <div style="float: left;"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330
+                height=110 src="//music.163.com/outchain/player?type=0&id=2799143003&auto=1&height=90"></iframe>
+        </div> -->
+        <div style="width: 100%; text-align: center;">
+            <h1>远熙&家</h1>
+        </div>
+
+        <!-- 天气模块 -->
+        <div style="margin-right: 3em;float: right;">
+            <iframe allowtransparency="true" frameborder="0" width="290" height="96" scrolling="no"
+                src="https://tianqi.2345.com/plugin/widget/index.htm?s=2&z=1&t=0&v=0&d=2&bd=0&k=000000&f=ffffff&ltf=009944&htf=cc0000&q=1&e=1&a=1&c=71374&w=290&h=96&align=right"></iframe>
+        </div>
+    </header>
+
+    <!-- 正文 -->
+    <main>
+
+        <!-- 左侧 -->
+        <div class="left">
+            <div class="menu" id="menu1">
+                <!-- <div class="part1 part"><a href="#">服务器</a></div>
+                <div class="part2 part"><a href="#">群晖</a></div>
+                <div class="part3 part"><a href="#">常用</a></div> -->
+            </div>
+
+        </div>
+        <!-- 中间 -->
+        <div class="mid" , id="mid1">
+            <div class="search">
+                <form target="_blank" action="https://www.baidu.com/s">
+                    <input class="search_input" type="text" name="wd" placeholder="请输入搜索内容">
+                    <input class="seach_btn" type="submit" value="搜一下">
+                </form>
+
+            </div>
+
+
+            <!-- 项目列表 -->
+            <!-- <div class="item">
+                <div class="item_title">服务器</div>
+                <div class="item_Content">
+                    <a href="https://192.168.100.254" target="_blank">
+                        <div class="btn">
+                            <div class="btn_name">ESXI</div>
+                            <div class="btn_note">ESXi专为运行虚拟机、最大限度降低配置要求和简化部署而设计</div>
+                        </div>
+
+                    </a>
+                    <a href="https://192.168.100.250:5001" target="_blank">
+                        <div class="btn">群晖DSM</div>
+                    </a>
+                    <a href="https://192.168.100.253" target="_blank">
+                        <div class="btn">爱快Ikuai</div>
+                    </a>
+                    <a href="https://192.168.100.252" target="_blank">
+                        <div class="btn">OpenWrt</div>
+                    </a>
+                </div> -->
+            </div>
+
+
+        </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div>底部</div>
+    </footer>
+
+
+    <!-- 黑客帝国背景 -->
+    <script src="/js/matrix.js"></script>
+    <!-- 读取JSON文件，生成各项 -->
+    <script src="/js/main.js"></script>
 </body>
+
 </html>
