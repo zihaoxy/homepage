@@ -1,0 +1,115 @@
+{
+    "sites": [
+        {
+            "name": "服务直通",
+            "nembers": [
+                {
+                    "name": "Esxi",
+                    "url": "https://192.168.100.254",
+                    "note":"ESXi专为运行虚拟机、最大限度降低配置要求和简化部署而设计"
+                },
+                {
+                    "name": "OMV",
+                    "url": "https://192.168.100.249",
+                    "note":"OMV"
+                },
+                {
+                    "name": "DSM",
+                    "url": "https://192.168.100.250:5001",
+                    "note":"群晖NAS网络存储器"
+                },
+                {
+                    "name": "Ikuai",
+                    "url": "https://192.168.100.253",
+                    "note":"爱快软路由"
+                },
+                {
+                    "name": "OpenWrt",
+                    "url": "https://192.168.100.252",
+                    "note":"国外开源旁路由"
+                }
+            ]
+        },
+        {
+            "name": "自建应用",
+            "nembers": [
+                {
+                    "name": "Note Station",
+                    "url": "https://192.168.100.250:9351/",
+                    "note":"能够让您充分享受写作、观看、编辑并分享内容丰富的便签"
+                },
+                {
+                    "name": "Synology Drive",
+                    "url": "https://192.168.100.250:10003",
+                    "note":"群晖企业网盘"
+                },
+                {
+                    "name": "Synology Photos",
+                    "url": "https://192.168.100.250:5443",
+                    "note":"群晖相册管理、备份"
+                },
+                {
+                    "name": "Bitwarden",
+                    "url": "https://192.168.100.250:10011",
+                    "note":"Docker 密码管理"
+                },
+                                {
+                    "name": "Trilium Notes",
+                    "url": "http://192.168.100.250:10002",
+                    "note":"Docker 好用的笔记系统"
+                }
+
+            ]
+        },
+        {
+            "name": "搜索引擎",
+            "nembers": [
+                {
+                    "name": "Google",
+                    "url": "https://www.google.com/",
+                    "note":"谷歌公司的主要产品，也是世界上最大的搜索引擎之一"
+                },
+                {
+                    "name": "百度",
+                    "url": "https://baidu.com/",
+                    "note":"全球最大的中文搜索引擎、致力于让网民更便捷地获取信息,找到所求"
+                },
+                {
+                    "name": "360导航",
+                    "url": "https://hao.360.com/",
+                    "note":"为用户提供门户、新闻、视频、游戏、小说、彩票等各种分类的优秀内容和网站入口,提供简单便捷的上网导航服务"
+                }
+            ]
+        },
+        {
+            "name": "学习专区",
+            "nembers": [
+                {
+                    "name": "码云",
+                    "url": "https://gitee.com/",
+                    "note":"Gitee.com推出的代码托管平台"
+                },
+                {
+                    "name": "编程导航",
+                    "url": "https://www.code-nav.cn/",
+                    "note":"最专业的程序员导航网站,发现优质编程学习资源"
+                },
+                {
+                    "name": "稀土掘金",
+                    "url": "https://juejin.cn/",
+                    "note":"面向全球中文开发者的技术内容分享与交流平台"
+                },
+                {
+                    "name": "PUDN",
+                    "url": "https://www.pudn.com/",
+                    "note":"程序员联合开发网"
+                },
+                {
+                    "name": "码农天地",
+                    "url": "https://www.gybworld.com/",
+                    "note":"前端代码平台"
+                }
+            ]
+        }
+    ]
+}
