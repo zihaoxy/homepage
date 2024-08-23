@@ -1,5 +1,5 @@
 window.onload = function () {
-    var url = "/data/json"
+    var url = "../data/json"
     var request = new XMLHttpRequest()
     request.open("get", url)
     request.send(null)
